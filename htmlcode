@@ -1,0 +1,103 @@
+<html>
+<head>
+<title>putatoe
+</title>
+<script src="jquery.3.js"></script>
+
+<link href="jquery-ui.css" rel="stylesheet">
+<script src="jquery-ui.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@700&display=swap" rel="stylesheet">
+<style type="text/css">
+body{
+     margin:0;
+	 padding:0;
+	 background-color:#FADAAB;
+	 }
+#headerbar{
+          width:100%;
+		  height:50px;
+		  background-color:#0E3D14;
+		  }
+#place{
+      font-size:50px;
+	  
+	  margin-left:400px;
+	  margin-top:30px;
+	  font-family: 'Lemonada', cursive;
+}
+#placedetails{
+         width:40%;
+		 height:280px;
+		 background-color:#F6C681;
+		  margin-left:100px;
+		  font-family: 'Lemonada', cursive;
+		  padding:10px;
+		  color:#521039;
+		 }
+
+img{
+   float:right;
+    width:30%;
+	height:280px;
+	position:relative;
+	right:200px;
+	top:-290px;
+	 }
+.location{
+     font-family: 'Lemonada', cursive;
+	  margin-left:100px;
+	   color:#559F92;
+	   font-size:24px;
+}
+#locationname{
+          color:#2D394C;
+		  }
+a{
+            text-decoration:none;
+			font-size:20px;
+			font-family: 'Lemonada', cursive;
+			margin-left:20px;
+			color:white;
+			}
+</style>
+</head>
+<body>
+<div id="headerbar">
+ <div id="headerword">
+  <a class="navbar-brand" href="">Uttarakhand Traveller</a>
+    <a  href="" >Home</a>
+            <a href="">Blog</a>
+			 <a href="">About</a>
+            <a href="">Contact</a>
+            <a href="">Treks <span class="badge badge-secondary">New</span> </a>
+			<a href="https://www.facebook.com/uttarakhandtravellers/">facebook</a>
+                <a href="https://www.instagram.com/uttarakhandtraveller/">instagram</a>
+
+ </div>
+ </div>
+ <div id="place">chopta
+ </div>
+ <div id="placebar">
+ <div id="placedetails"><p>"Chopta is an amazing destination to visit anytime 
+ throughout the year. Best time to visit in Summers in April-June and in Winters is
+ Oct-Dec. But if you want to visit the sacred Tungnath Temple then visit from April 
+ to November because Temple is closed in winters and if you want to visit for
+ snow then visit in winters, Chopta is covered with layers of snow look beautiful
+ like mini Switzerland."
+  </p> </div>
+ <img src="http://www.uttarakhandtraveller.com/media/thumbnail/large/choptaa.jpg" id="imgid">
+ </div>
+ <div class="location">location:<span id="locationname">rudraprayag</span></div>
+ 
+ 
+<script>
+$("#imgid").hover(function(){
+           $(this).animate({width:"35%",height:"300px"}
+		   ,1000);},function(){
+           $(this).animate({width:"30%",height:"280px"}
+		   ,1000)})
+		   
+            
+</script>
+</body>
+</html>
